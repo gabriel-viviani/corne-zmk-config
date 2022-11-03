@@ -19,7 +19,7 @@
 // | CMD  |  Z  |  X  |  C  |  V  |  B  |                 |  N  |  M   |  ,  |  .  |  /  | TAB |
 //               | CTRL | BKSP | NUMBERS|                 | ENT | SPACE | ALT |
                         bindings = <
-   &kp ESC &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U  &kp I     &kp O   &kp P   &mo 2
+   &kp ESC &kp Q &kp W &kp E &kp R &kp T                 &kp Y &kp U  &kp I     &kp O   &kp P   &mo 1
    &kp LSHFT &kp A &kp S &kp D &kp F &kp G               &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LGUI &kp Z &kp X &kp C &kp V &kp B                &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp TAB 
                 &kp LCTRL &kp BSPC &mo 1        &kp RET &kp SPACE &kp RALT
@@ -39,20 +39,20 @@
                         >;
                 };
 
-                symbols_layer {
-// -----------------------------------------------------------------------------------------
-// |  ESC |  !  |  @  |  #  |  $  |  %  |                       |  ^  |  &  |  *  |  (  |  )  | DEL |
-// | SHIFT| PREV| PLAY/PAUSE| NEXT|  |  |                       |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | CMD  |     |     |     |     |     |                       |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | CTRL| BKSP| DEFAULT |                   | ENT | SPACE | ALT |
+//                 symbols_layer {
+// // -----------------------------------------------------------------------------------------
+// // |  ESC |  !  |  @  |  #  |  $  |  %  |                       |  ^  |  &  |  *  |  (  |  )  | DEL |
+// // | SHIFT| PREV| PLAY/PAUSE| NEXT|  |  |                       |  -  |  =  |  [  |  ]  |  \  |  `   |
+// // | CMD  |     |     |     |     |     |                       |  _  |  +  |  {  |  }  | "|" |  ~   |
+// //                    | CTRL| BKSP| DEFAULT |                   | ENT | SPACE | ALT |
 
 
-                        bindings = <
-   &kp ESC &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp DEL
-   &kp LSHFT &kp C_PREV &kp C_PP &kp C_NEXT   &trans   &trans                   &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LGUI &trans   &trans &trans   &trans   &trans                            &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &to TILDE
-                        &kp LCTRL &kp BSPC   &kp DEL                                &kp RET   &kp SPACE &kp RALT
-                        >;
-                };
+//                         bindings = <
+//    &kp ESC &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                         &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp DEL
+//    &kp LSHFT &kp C_PREV &kp C_PP &kp C_NEXT   &trans   &trans                   &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+//    &kp LGUI &trans   &trans &trans   &trans   &trans                            &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &to TILDE
+//                         &kp LCTRL &kp BSPC   &kp DEL                                &kp RET   &kp SPACE &kp RALT
+//                         >;
+//                 };
         };
 };
